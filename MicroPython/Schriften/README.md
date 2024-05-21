@@ -1,4 +1,4 @@
-<b>Timing und Clipping</b>
+<b>Ergänzung zum Heft-Artikel: Timing und Clipping</b>
 <br><br>
 Möchte man mehr als eine Laufschrift darstellen, kann man die <b>if</b>-Bedingung aus <i>laufschrift_mit_timing.py</i> in der Dauerschleife <b>while True:</b> samt ihrer Variablen vervielfachen. Das Beispielprogramm <i>zwei_laufschriften_regenbogen.py</i> zeigt, wie es geht und löst zudem noch folgendes Problem: ein Flimmern, das entsteht, wenn beide Laufschriften sich mit unterschiedlicher Geschwindigkeit bewegen. Dieses tritt auf, weil die beiden Schriften den Bildschirm zu unterschiedlichen Zeitpunkten mit <b>buffer.clear()</b> löschen.
 <br><br>
